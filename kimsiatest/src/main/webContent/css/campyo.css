@@ -1,0 +1,28 @@
+    /* header , footer --> iframe*/
+    iframe.h {
+        overflow:hidden;
+    border:1px solid red;
+    }
+   img.header_image{
+    padding:10px; border:1px solid red;
+   }
+    ul.header_a {
+       list-style-type:none;overflow:hidden; position:fixed; right:10px;
+       margin-left:0; padding:0; border:1px solid red; display:inline-block;
+    }
+    ul.header_a li{
+        border:1px solid blue; margin-right:5px;
+       float:left;
+    }
+    ul.header_b{
+       clear:left;  list-style-type:none;overflow:hidden;
+       margin:0; padding:0;  border:1px solid red; display:block; text-align:center;
+    }
+    ul.header_b li{
+        display:inline-block; margin-right:5px; border:1px solid blue;
+    }
+    ul.main {
+        list-style-type:none; margin:0; padding:0;
+    }
+    
+    
